@@ -1,0 +1,11 @@
+body {font-family: Garamond, serif;}
+h1, h2 {color: rgb(94, 131, 94);}
+td, th {border: 1px solid black;}
+.evenrow {background-color:rgb(215, 215, 215);}
+h1 {font-size: 2em;}
+h2 {font-size: 1.5em;}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
