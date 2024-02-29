@@ -1,0 +1,26 @@
+body {background-color: #E4E6D9;}
+
+nav {background-color:#253528;
+    color:#E4E6D9;
+    padding: 10px;
+    margin-bottom: 30px
+    }
+nav a:link {color: #E4E6D9;}
+nav a:visited {color: #E4E6D9;}
+nav a:hover {color:#253528; background-color:#E4E6D9;}
+
+p {color: #000000;}
+
+a:link {color: #253528;}
+a:visited {color: #49654E}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2 {color: #253528;}
+
+.evenrow {background-color:#E4E6D9;}
+td, th {border: 1px solid #253528;}
