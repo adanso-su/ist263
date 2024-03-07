@@ -8,9 +8,14 @@ nav {background-color:#253528;
     }
 nav a:link {color: #E4E6D9;}
 nav a:visited {color: #E4E6D9;}
-nav a:hover {color:#253528; background-color:#E4E6D9; padding:10px; margin-bottom:30px;}
+nav a:hover {color:#253528; background-color:#E4E6D9; padding:10px;}
 
-p {color: #000000;}
+/* .active {background-color: #677064; padding:10px; }
+li a:hover:not(.active) {
+    color:#253528; background-color:#E4E6D9; padding:10px;
+  } */
+
+p {color: #253528;}
 
 a:link {color: #253528;}
 a:visited {color: #49654E}

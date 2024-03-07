@@ -1,0 +1,80 @@
+body {background-color: #E4E6D9;}
+
+p {color: #253528;}
+
+h1, h2 {color: #253528;}
+
+nav {background-color:#253528;
+    color:#E4E6D9;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #253528;
+    }
+nav a:link {color: #E4E6D9;}
+nav a:visited {color: #E4E6D9;}
+nav a:hover {color:#253528; background-color:#E4E6D9; padding:10px;}
+
+a:link {color: #253528;}
+a:visited {color: #49654E}
+
+/* .active {background-color: #677064; padding:10px; }
+li a:hover:not(.active) {
+    color:#253528; background-color:#E4E6D9; padding:10px;
+  } */
+
+
+.evenrow {background-color:#E4E6D9;}
+td, th {border: 1px solid #253528;}
+
+
+main {margin-left: 20px;}
+.copy {
+        float: left;
+        color: #49654E;}
+.quote {
+        float: right;
+        font-style: italic;
+        color: #49654E;
+        }
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+}
+*/
+
+.clear {clear: both;}
+
+.banner {float: left;
+        margin: 0px 40px 20px 0px;}
+
+
+
+.fbox1, .fbox2 {
+        display: flex;
+        background-color: #ffffff;
+        margin: 20px;
+        border-radius: 1em;
+        padding:15px;}
+
+.fbox1 {align-items: flex-end;}
+.fbox1 div {
+            flex: .2; 
+            padding: 20px; 
+            font-size: large;
+            }       
+
+.cform {
+        flex: 1;
+        padding:10px;
+        margin:10px;
+        font-size: large;
+        }
+.map {
+        flex: 2;
+        padding:10px;
+        margin:10px;
+        text-align: right;}
+
