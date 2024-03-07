@@ -1,6 +1,10 @@
 body {background-color: #E4E6D9;}
 
-p {color: #253528;}
+p {
+    color: #253528;
+    line-height: 1.4;}
+
+img {border-radius: .5em;}
 
 h1, h2 {color: #253528;}
 
@@ -77,4 +81,5 @@ main {margin-left: 20px;}
         padding:10px;
         margin:10px;
         text-align: right;}
+.embedmap { border-radius: .5em;}
 
