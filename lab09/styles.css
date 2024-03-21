@@ -13,10 +13,11 @@ nav {background-color:#253528;
     padding: 10px;
     margin-bottom: 30px;
     border: 1px solid #253528;
+    text-decoration: none;
     }
-nav a:link {color: #E4E6D9;}
-nav a:visited {color: #E4E6D9;}
-nav a:hover {color:#253528; background-color:#E4E6D9; padding:10px;}
+nav a:link {color: #E4E6D9; text-decoration: none;}
+nav a:visited {color: #E4E6D9; text-decoration: none;}
+nav a:hover {color:#253528; background-color:#E4E6D9; padding:10px; text-decoration: none;}
 
 a:link {color: #253528;}
 a:visited {color: #49654E}
@@ -27,11 +28,7 @@ li a:hover:not(.active) {
   } */
 
 
-.evenrow {background-color:#E4E6D9;}
-td, th {border: 1px solid #253528;}
-table {
-        padding: 10px;
-        margin: 10px;}
+
 
 
 main {margin-left: 20px;}
@@ -90,4 +87,34 @@ main {margin-left: 20px;}
         margin:10px;
         text-align: right;}
 .embedmap { border-radius: .5em;}
+
+
+/* Skills page */
+
+.evenrow {background-color:#E4E6D9;}
+td, th {border: 1px solid #253528;}
+table {
+        padding: 10px;
+        margin: 10px;}
+
+h1 {text-align: center;}
+
+div {color: #253528;
+}
+
+aside {
+        background-color: #253528; 
+        border-radius: .5em; 
+        padding: 2px 10px 10px 15px;
+        }
+aside p, aside h2 {color: #E4E6D9;}
+
+.skills {display: flex; justify-content: space-between; text-align: center;}
+.flex2 {display: flex; margin: 10px;}
+.col1 {flex: 3; margin: auto 40px;}
+.col2 {flex: 1;}
+
+.col1, .col2 {padding: 10px;}
+.blurb {display: flex;}
+.skillspage {margin: 20px 20px 20px 35px;}
 
