@@ -15,6 +15,7 @@ nav {background-color:#253528;
     border: 1px solid #253528;
     text-decoration: none;
     }
+
 nav a:link {color: #E4E6D9; text-decoration: none;}
 nav a:visited {color: #E4E6D9; text-decoration: none;}
 nav a:hover {color:#253528; background-color:#E4E6D9; padding:10px; text-decoration: none;}
