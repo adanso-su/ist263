@@ -10,10 +10,15 @@
         .banner {
                 width: 350px;
                 }
+        .col1 {
+                margin-right: 50px;
+        }
+        .skills p i {font-size: 1em ;}
         
 @media only screen and (min-width: 801px) {
         .blurb {margin-right: 310px;} 
         .banner {margin: 0px 40px 20px 0px;}
+        .skills p i {font-size: 4em ;}
     }
 
 
