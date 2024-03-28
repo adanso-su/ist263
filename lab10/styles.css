@@ -16,7 +16,7 @@
         .col1 {
                 margin-right: 50px;
         }
-        .skills p i {font-size: 1em ;}
+        .skills p i {font-size: 2em; margin: auto;}
         
 @media only screen and (min-width: 801px) {
         .blurb {margin-right: 310px;} 
