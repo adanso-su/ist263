@@ -1,10 +1,15 @@
 @media only screen and (max-width: 800px) {
-        nav a {max-width: 100%;
-                display: block;}
+        nav a {
+                max-width: 100%;
+                display: block;
+                padding: 5px;}
+        span {display: none;}
+        .blurb {margin: auto; padding-left: 9px;}     
+        .embedmap {height: 400px;}
         }
         
 @media only screen and (min-width: 801px) {
-        
+        .blurb {margin-right: 310px;} 
     }
 
 
@@ -20,34 +25,21 @@ h1, h2 {color: #253528;}
 
 
 /* navigation css */
-nav, .left, .right {display: flex;}
-nav div {padding: 0px 5px;}
-nav {
-    justify-content: space-between;
-    background-color:#253528;
-    color:#E4E6D9;
-    border: 1px solid #253528;
-    text-decoration: none;
-    display: flex;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 15px;
-    padding: 13px 5px;
-    border-radius: .3em;
-}
-
-nav div a:link {color: #E4E6D9; text-decoration: none;}
-nav div a:visited {color: #E4E6D9; text-decoration: none;}
-nav div a:hover {
-    color:#253528; 
-    background-color:#E4E6D9; 
-    padding:13px; 
-    text-decoration: none; 
-    border: 1px solid #253528; 
-    border-radius: .4em;
-}
-
+nav {background-color:#253528;
+        color:#E4E6D9;
+        padding: 10px;
+        margin-bottom: 30px;
+        border: 1px solid #253528;
+        text-decoration: none;
+        }
+    
+nav a:link {color: #E4E6D9;}
+nav a:visited {color: #E4E6D9;}
+nav a:hover {color:#253528; background-color:#E4E6D9; padding:10px;}
+    
 a:link {color: #253528;}
 a:visited {color: #49654E}
+
 
 /* .active {background-color: #677064; padding:10px; }
 li a:hover:not(.active) {
@@ -139,11 +131,10 @@ aside {
 aside p, aside h2 {color: #E4E6D9;}
 
 .skills {display: flex; justify-content: space-between; text-align: center;}
-.flex2 {display: flex; margin: 10px;}
+.flex2 {display: flex; margin: 10px; flex-wrap: wrap;}
 .col1 {flex: 3; margin: auto 40px;}
 .col2 {flex: 1;}
 
-.col1, .col2 {padding: 10px;}
-.blurb {display: flex;}
+
 .skillspage {margin: 20px 20px 20px 35px;}
 
