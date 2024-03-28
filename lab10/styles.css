@@ -5,11 +5,14 @@
                 padding: 5px;}
         span {display: none;}
         .blurb {margin: auto; padding-left: 9px;}     
-        .embedmap {height: 400px;}
+        .embedmap {height: 400px;  }
         }
         .banner {
-                width: 350px;
+                width: 93%;
+                margin: auto;
+                display: block;
                 }
+        .img {text-align: center;}
         .col1 {
                 margin-right: 50px;
         }
@@ -17,7 +20,7 @@
         
 @media only screen and (min-width: 801px) {
         .blurb {margin-right: 310px;} 
-        .banner {margin: 0px 40px 20px 0px;}
+        .banner {margin: 0px 40px 20px 0px; width: 450px;}
         .skills p i {font-size: 4em ;}
     }
 
@@ -85,6 +88,7 @@ main {margin-left: 20px;}
         border-radius: .5em;
         background-color: #acbca9;
         max-width: 100%;
+        margin: 0px 40px 20px 0px;
         }
 
 
