@@ -1,18 +1,40 @@
-body { background-color: rgb(43, 41, 44);
+body { 
+   /* background-color: #fff5f2; */
+    color: #FBC5D8;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
+.name { 
+    font-size: 4em;
+    font-weight:900;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.login {
+    text-align: right;
+    margin: 0px 20px 0 20px;
+}
+.login a { 
+    text-decoration: none; 
+    color: #ffa5c5;
+}
+
 /* navigation css */
-nav, .left, .right {display: flex;}
-nav div {padding: 0px 5px;}
+nav, {display: flex;}
+nav div {
+    padding: 0px 5px;
+    font-weight: 600;
+    color: #ffffff;
+}
 nav {
     justify-content: space-between;
-    background-color: #F7A398;
-    color:#FFEAF2;
-    border: 1px solid #F7A398;
+    background-color: #FBC5D8;
+    color:#ffffff;
+    border: 1px solid #FBC5D8;
     text-decoration: none;
     display: flex;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 15px;
+    margin: 15px 0px 15px 0px;
     padding: 13px 5px;
     border-radius: 1.5em;
 }
@@ -20,15 +42,54 @@ nav {
 nav div a:link {color: #FFEAF2; text-decoration: none;}
 nav div a:visited {color: #FFEAF2; text-decoration: none;}
 nav div a:hover {
-    color:#F7A398;
-    background-color:#FFEAF2; 
-    padding: 13px 30px; 
+    color:#FBC5D8;
+    background-color:#ffffff;
+    padding: 13px 30px;
     text-decoration: none; 
-    border: 1px solid #F7A398;
+    border: 1px solid #FBC5D8;
     border-radius: 1.5em;
 }
-/* nav css ends here, below is dropdown navbar */
+
 .middle {
     justify-content: space-around;
     font-size: 1.1em;
-    font-weight: 500;}
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+/* nav css ends here */
+
+/* home page css*/
+main {color: #ffa5c5;}
+.welcome {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+.welcome a {
+    color: #ffa5c5;
+}
+.tpflx { 
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+.tpflx2 {
+    margin: auto 0px;
+    padding: 40px;
+    border: 2px solid #ffa5c5;
+    border-radius: 1.5em;
+}
+.tpflx2 p {
+    line-height: 2;
+    font-size: large;
+    text-align: center;
+}
+
+/* footer css */
+footer {
+    background-color: #FBC5D8;
+    color: #ffffff;
+    width: 100%;
+    height: 100px;
+}

@@ -1,36 +1,18 @@
-body { 
-   /* background-color: rgb(43, 41, 44); */
-    color: #F7A398;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body { background-color: rgb(43, 41, 44);
 
 }
-.name { 
-    font-size: 4em;
-    font-weight:900;
-    text-align: center;
-    letter-spacing: 2px;
-}
-.login {
-    text-align: right;
-    margin: 0px 20px 0 20px;
-}
-.login a { 
-    text-decoration: none; 
-    color:#F7A398;
-}
-
 /* navigation css */
-nav, {display: flex;}
+nav, .left, .right {display: flex;}
 nav div {padding: 0px 5px;}
 nav {
     justify-content: space-between;
     background-color: #F7A398;
-    color:#ffffff;
+    color:#FFEAF2;
     border: 1px solid #F7A398;
     text-decoration: none;
     display: flex;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 15px 0px 15px 0px;
+    margin-bottom: 15px;
     padding: 13px 5px;
     border-radius: 1.5em;
 }
@@ -39,8 +21,8 @@ nav div a:link {color: #FFEAF2; text-decoration: none;}
 nav div a:visited {color: #FFEAF2; text-decoration: none;}
 nav div a:hover {
     color:#F7A398;
-    background-color:#ffffff;
-    padding: 13px 30px;
+    background-color:#FFEAF2; 
+    padding: 13px 30px; 
     text-decoration: none; 
     border: 1px solid #F7A398;
     border-radius: 1.5em;
@@ -49,6 +31,4 @@ nav div a:hover {
 .middle {
     justify-content: space-around;
     font-size: 1.1em;
-    font-weight: 500;
-    letter-spacing: 2px;
-}
+    font-weight: 500;}
