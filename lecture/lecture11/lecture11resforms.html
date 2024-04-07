@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Forms</title>
+    <style>
+        body {
+            background-color: #edcc8e;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+        form {
+            background-color: #ffffff;
+            padding:10px 40px 40px 40px;
+            margin: 0 auto;
+            border-radius: 1.5em;
+            height: 350px;
+        }
+        input, textarea {
+            margin-bottom: 30px;
+            width: 100%; /* no attributes can be on the form field for width */
+            max-height: 50px;
+            max-width: 100%;
+            min-width: 100%;
+        }
+        .submit {
+            background-color:#edcc8e;
+            border: none;
+            color:#ffffff;
+            padding: 15px;
+            border-radius: 1.5em;
+
+        }
+        @media only screen and (max-width: 800px) {
+               form {width: 70%;}
+            }
+        @media only screen and (min-width: 801px) {
+               form {width: 30%;}
+            }
+        
+    </style>
+</head>
+<body>
+    <form>
+     <h1>Contact Form</h1> 
+     <label for="name">Name</label>  <br>
+     <input type="text" id="name" name="name"> <br>
+     <label for="email">Email</label>  <br>
+     <input type="text" id="email" name="email"> <br>
+     <label for="comment">Comments</label> <br>
+     <textarea id="comment" name="comment"></textarea> <br>
+     <input type="submit" value="Send Form" class="submit">
+    </form>
+</body>
+</html>
