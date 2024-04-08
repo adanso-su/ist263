@@ -1,3 +1,17 @@
+@media only screen and (max-width: 800px) {
+    .tpflx, .btmflx { 
+        flex-wrap: wrap;
+    }
+    img {width: 100%;}
+    .myosale {
+        width: 400px;
+    }
+}
+    
+@media only screen and (min-width: 801px) {
+
+}
+
 body { 
    /* background-color: #fff5f2; */
     color: #FBC5D8;
