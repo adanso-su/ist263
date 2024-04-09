@@ -13,7 +13,7 @@
 }
 
 body { 
-   /* background-color: #fff5f2; */
+    background-color: #fff5f2;
     color: #FBC5D8;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -136,6 +136,7 @@ h1 {
 .buttons {
     margin: 80px 70px;
 }
+
 .buttons p {
     background-color: #FBC5D8;
     padding: 20px 0px;
@@ -143,9 +144,19 @@ h1 {
     color:#ffffff;
     font-weight: 600;
 }
+
+/*
 .buttons p a {
     text-decoration: none;
     color:#ffffff;
+} */
+
+.buttons p:hover {
+    background-color: #ffffff;
+    padding: 20px 0px;
+    border-radius: 1.5em;
+    color: #FBC5D8;
+    font-weight: 600;
 }
 /* footer css */
 footer {
