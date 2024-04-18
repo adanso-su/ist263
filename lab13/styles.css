@@ -32,6 +32,7 @@
         border: 1px solid #253528;
         padding: 10px 30px;
 }
+
 #skip-to-content:focus {
         position: absolute;
         left: 10px;
