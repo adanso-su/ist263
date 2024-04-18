@@ -5,8 +5,7 @@
                 padding: 5px;}
         span {display: none;}
         .blurb {margin: auto; padding-left: 9px;}     
-        .embedmap {height: 400px;  }
-        }
+        .embedmap {height: 400px;}
         .banner {
                 width: 93%;
                 margin: auto;
@@ -18,6 +17,7 @@
         }
         .skills p i {font-size: 2em; margin: auto;}
         .bio {margin: 10px;}
+}
         
 @media only screen and (min-width: 801px) {
         .blurb {margin-right: 310px;} 
