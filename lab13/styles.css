@@ -25,6 +25,19 @@
         .skills p i {font-size: 4em ;}
     }
 
+#skip-to-content {
+        position: absolute;
+        left: -999px;
+        background-color: #E4E6D9;
+        border: 1px solid #253528;
+        padding: 10px 30px;
+}
+#skip-to-content:focus {
+        position: absolute;
+        left: 10px;
+}
+
+
 
 body {background-color: #E4E6D9;}
 
