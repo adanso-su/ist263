@@ -1,8 +1,9 @@
 /* ------------------------------------------------------------------- */
 /* Sheet ID
+https://docs.google.com/spreadsheets/d/1U1QxxIzuM0RrN5FcqRHiXiETgK3jWgBbSjZupi5HxEA/edit?usp=sharing
 /* Your sheet ID
 /* ------------------------------------------------------------------- */
-let sheetID = "https://docs.google.com/spreadsheets/d/1U1QxxIzuM0RrN5FcqRHiXiETgK3jWgBbSjZupi5HxEA/edit?usp=sharing";
+let sheetID = "1U1QxxIzuM0RrN5FcqRHiXiETgK3jWgBbSjZupi5HxEA";
 /* ------------------------------------------------------------------- */
 /* All sheet pages
 /* ------------------------------------------------------------------- */
