@@ -5,6 +5,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Encylcopedia</title>
+		<link rel="Stylesheet" href="styles/style.css">
+		<script src="https://kit.fontawesome.com/8319955bbc.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
@@ -19,28 +21,37 @@
 		</nav>
 
 		<main>
+
 			<h1>FAQ</h1>
-			<div class="faq">
+			<div class="faqblock">
 				<p>
 					Q : Do we need to buy an add-on if we want to draw Devas in other forms? ( Ex : Humanoid, Dragontaur, mini and true form ) <br>
 					A : No you don't! If you have a Devas, you can draw them in any of their form, they're capable of transforming.
 				</p>
+			</div>
+			<div class="faqblock">
 				<p>
 					Q :  What can we do with a "Normal Devas" slot? <br>
 					A : You can choose to create any of the Land / Sky / Aquatic / Underground Devas
 						but you cannot mixed the traits from one type to another (ex: you cannot have trait from Sky and Aqua in one design )
 				</p>
+			</div>
+			<div class="faqblock">
 				<p>	
 					Q : Can we mix the traits of different type of devas? <br>
 					A : Usually no. but if you buy an add-on, you can create devas that have 2 mixed types. (Ex : Aquatic devas + Floral body) 
 						Mixed trait devas can be born in a condition that the fragments of it's mother got combined together when they were scattered.
 						Even when they're mixed, you still need to choose the main type ( Ex : main is Sky, you can use any traits from Sky type but you can add only 1 more trait from another type)
-				</p>	
+				</p>
+			</div>
+			<div class="faqblock">
 				<p>
 					Q : For the mixed-traits Devas that only have 1 extra trait from another type, can we pay to add more traits to use? <br>
 					A : Unfortunately, no. To prevent Devas having too many traits from every type, I only allow you to choose 1 extra trait to add into your Devas so, choose wisely!
 					<br>	 Mixed-traits Devas will still able to use only one main element. They can have a sub element but that element can rarely be used. Ex : if you have fire as a sub element, your Devas will only be able to use it as a lighter.
 				</p>
+			</div>
+			<div class="faqblock">
 				<p>
 					Q : For the mixed-traits Devas, can we use the trait from "God Eater"? <br>
 					A: Also, NO. Mixed-devas is still count as normal devas, the traits from God eater is a trait that cause from mutation from the nomal devas so it can be only used in God eater.
@@ -51,7 +62,7 @@
 			</div>
 			
 			<h1> Species: </h1>
-			<div>
+			<div class="appear">
 				<p>
 					All Devas looks like angels that had been devoured by demons. human-like upper body The lower body is a dragon, with a long tail covered in scales. <br>
 					But there are some different details in their traits due to the scattering of the mother's fragments in various places. <br>
@@ -64,11 +75,7 @@
 				<p>
 					Devas can change their appearance into 4 types: <br> 
 				</p>
-				<img src="brand/devaappear.png">
-				<img src="brand/devahuman.png">
-				<img src="brand/devaears.png">
-				<img src="brand/devafeel.png">
-				<img src="brand/devawings.png">
+				<img class="img" src="brand/devaappear.png">
 				<!-- <p>
 					True form : Devas full form looks like a Dragon that has six legs, long tail and feelers on their head. Their face shape is like a deer mixed with snake.  <br>
 					Mini form : These mini forms is just like a mini version of the dragon form. The size is like cats or dogs. <br>
@@ -76,34 +83,49 @@
 					Humanoid : Most of the body is like human but still remains their feelers, fins, claws and tail.
 				</p> -->
 			</div>
+
+			<div id="slideshow">
+				<img id="sshow1" src="brand/devahuman.png">
+				<img id="sshow2" src="brand/devaears.png">
+				<img id="sshow3" src="brand/devafeel.png">
+				<img id="sshow4" src="brand/devawings.png">
+			</div>
 			
 			<h1>Subtypes</h1>
 			<h2>Child of Soul</h2>
-			<div>
+			<div class="sbcontainer">
 				<div>
 					<p>
-						Child of soul is a sky type
-						They came from the fragments of their creater's soul that shatters when they fall from heaven. This type usually a kind-hearted one. They have power heal or can freeze time. They can use wind or light element have have the ability to fly better than other type.
-
-						Traits : 
-						-Soul particles floating around the body(can be any shape) 
-						-Winged fins Bigger fins on their back that resembles insect wings.
-						-Fragile heart A wisp on their chest that represent their heart. if a sky devas have this, it means that they have the ability to heal
+						The child of soul comes from the fragments of their creater's soul that shatters when they fall from heaven.
+						This type usually a kind-hearted one. They have power heal or can freeze time. 
+						They can use wind or light element have have the ability to fly better than other type.
+					</p>
+					<p>
+						Traits : </p>
+						<ul>
+						<li>Soul particles floating around the body (can be any shape) </li> 
+						<li>Winged fins Bigger fins on their back that resembles insect wings.</li>
+						<li>Fragile heart A wisp on their chest that represent their heart. </li>
+					</ul>
+					<p>if a sky devas have this, it means that they have the ability to heal</p>
+					<p>
 						Habitat : floating garden, sky, top of the moutain.
+					</p>
+					<p>
 						Element : Wind, Light
 
 					</p>
 				</div>
 				<div>
-					<img src="brand/soul.png">
+					<img id="soul" src="brand/soul.png">
 				</div>
 			</div>
 
 			<h2>Child of Tears </h2>
-			<div>
+			<div class="sbcontainer">
 				<div>
-					<img src="brand/tears1.png">
-					<img src="brand/tears2.png">
+					<img id="tear1" src="brand/tears1.png">
+					<img id="tear2" src="brand/tears2.png">
 				</div>
 				<div>
 					<p>
@@ -119,7 +141,7 @@
 			</div>
 
 			<h2>Child of Flesh & Blood</h2>
-			<div>
+			<div class="sbcontainer">
 				<div>
 					<p>
 						Child of flesh and blood is a land type. 
@@ -132,15 +154,15 @@
 					</p>
 				</div>
 				<div>
-					<img src="brand/fleshandblood.png">
+					<img id="fleshblood" src="brand/fleshandblood.png">
 				</div>
 			</div>
 
 			<h2>Child of Wrath</h2>
-			<div>
+			<div class="sbcontainer">
 				<div>
-					<img src="brand/wrath1.png">
-					<img src="brand/wrath2.png">
+					<img id="wrath1" src="brand/wrath1.png">
+					<img id="wrath2" src="brand/wrath2.png">
 				</div>
 				<div>
 					<p>
@@ -187,7 +209,7 @@
 					</p>
 				</div>
 				<div>
-					<img src="brand/godeater.jpeg">
+					<img id="eater" src="brand/godeater.jpeg">
 				</div>
 			</div>
 

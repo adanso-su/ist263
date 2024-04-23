@@ -103,9 +103,9 @@ main {color: #ffa5c5;}
 h1 {
     font-size: 4em;
     font-weight:900;
-    text-align: center;
     letter-spacing: 2px;
     color: #FBC5D8;
+    padding-left: 40px;
 }
 
 .news {
@@ -164,4 +164,151 @@ footer {
     color: #ffffff;
     padding: 2.5px 10px;
     height: 60px;
+    margin-top: 10px;
+}
+
+/* masterlist css */
+
+.card {
+    border-radius: 1em;
+}
+
+a { color: #FBC5D8;}
+
+a:hover {
+    color: #FBC5D8;
+}
+
+/* encylopedia css */
+
+h2 {
+    padding-left: 40px;
+}
+
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+/* slideshow */
+#slideshow {
+    background-color: #ffffff;
+    border: 1px solid #FBC5D8;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 1.5em;
+}
+
+#sshow1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#sshow2 {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#sshow3 {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+#sshow4 {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+/* slideshow end */
+
+.faqblock {
+    line-height: 2;
+
+    background-color:#ffffff;
+    border: 1px solid #FBC5D8;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 1.5em;
+}
+
+.appear {
+    line-height: 2;
+
+    background-color:#ffffff;
+    border: 1px solid #FBC5D8;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 1.5em;
+}
+
+.appear p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.sbcontainer {
+    display:flex;
+
+    line-height: 2;
+
+    background-color:#ffffff;
+    border: 1px solid #FBC5D8;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 1.5em;
+}
+
+.sbcontainer div {
+    flex: 1;
+    margin: 20px;
+    padding: 10px;
+} 
+
+#soul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#fleshblood {
+    width: 90%;
+}
+
+#tear1 {
+    width: 90%;
+    display: block;
+}
+#tear2 {
+    width: 90%;
+    display: none;
+}
+#wrath1 {
+    width: 90%;
+    display: block;
+}
+#wrath2 {
+    width: 90%;
+    display: none;
+}
+#eater {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
