@@ -6,20 +6,68 @@
 		<title>Deva's Homepage</title>
 		<link rel="Stylesheet" href="styles/style.css">
 		<script src="https://kit.fontawesome.com/8319955bbc.js" crossorigin="anonymous"></script>
+		<script>
+					function EventTab ()
+		{
+			document.getElementById("eventtab").innerHTML = "In Progress!";
+		}
+		function EventOff ()
+		{
+			document.getElementById("eventtab").innerHTML = "Events";
+		}
+
+		function TOSOn ()
+		{
+			document.getElementById("terms").innerHTML = "In Progress!";
+		}
+		function TOSOff ()
+		{
+			document.getElementById("terms").innerHTML = "Terms Of Service";
+		}
+		function FAQOn ()
+		{
+			document.getElementById("frequentq").innerHTML = "In Progress!";
+		}
+		function FAQOff ()
+		{
+			document.getElementById("frequentq").innerHTML = "FAQ";
+		}
+		function StartOn ()
+		{
+			document.getElementById("started").innerHTML = "In Progress!";
+		}
+		function StartOff ()
+		{
+			document.getElementById("started").innerHTML = "Get Started";
+		}
+		
+		function MYOOn ()
+		{
+			document.getElementById("guide").innerHTML = "In Progress!";
+		}
+		function MYOOff ()
+		{
+			document.getElementById("guide").innerHTML = "MYO Guide";
+		}
+		
+		
+		
+		</script>
 	</head>
 
 	<body>
+		<a id="skip-to-content" href="#content">Skip To Content</a>
 		<div class="name"> DEVAS </div>
 		<div class="login">
 			<a href="#"> <i class="fa-solid fa-user"></i> Login / Sign Up</a>
 		</div>
 		<nav class="middle">
-			<div><a href="index.html">Home</a></div>
-			<div><a href="#">Events</a></div>
-			<div><a href="encylcopedia.html">Encylcopedia</a></div>
-			<div><a href="masterlist.html">Masterlist</a></div>
+			<a href="index.html">Home</a>
+			<a id="eventtab" onmouseover="EventTab();" onmouseout="EventOff();" href="#">Events</a>
+			<a href="encylcopedia.html">Encylcopedia</a>
+			<a href="masterlist.html">Masterlist</a>
 		</nav>
-
+		<a id="content"></a>
 		<main>
 			<p class="welcome">
 				Welcome to Devas,
@@ -66,10 +114,10 @@
 			<div class="btmright">
 				<h1>Resources</h1>
 				<div class="buttons">
-					<p> Terms Of Service</p>
-					<p>FAQ</p>
-					<p>Get Started</p>
-					<p>MYO Guide</p>
+					<p id="terms" onmouseover="TOSOn();" onmouseout="TOSOff();"> Terms Of Service</p>
+					<p id="frequentq" onmouseover="FAQOn();" onmouseout="FAQOff();" >FAQ</p>
+					<p id="started" onmouseover="StartOn();" onmouseout="StartOff();">Get Started</p>
+					<p id="guide" onmouseover="MYOOn();" onmouseout="MYOOff();">MYO Guide</p>
 				</div>
 			</div>
 		</div>

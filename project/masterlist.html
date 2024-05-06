@@ -46,10 +46,21 @@
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400|Comfortaa:500" rel="stylesheet">
 
+    <script>
+        function EventTab ()
+		{
+			document.getElementById("eventtab").innerHTML = "In Progress!";
+		}
+		function EventOff ()
+		{
+			document.getElementById("eventtab").innerHTML = "Events";
+		}
+    </script>
 
 </head>
 
 <body>
+    <a id="skip-to-content" href="#content">Skip To Content</a>
 
 
     <!-- --------------------------------------------------------------------
@@ -62,13 +73,13 @@
 			<a href="#"> <i class="fa-solid fa-user"></i> Login / Sign Up</a>
 		</div>
 		<nav class="middle">
-			<div><a href="index.html">Home</a></div>
-			<div><a href="#">Events</a></div>
-			<div><a href="encylcopedia.html">Encylcopedia</a></div>
-			<div><a href="masterlist.html">Masterlist</a></div>
+			<a href="index.html">Home</a>
+			<a id="eventtab" onmouseover="EventTab();" onmouseout="EventOff();" href="#">Events</a>
+			<a href="encylcopedia.html">Encylcopedia</a>
+			<a href="masterlist.html">Masterlist</a>
 		</nav>
 
-
+        <a id="content"></a>
     <!-- Spinner for loading-->
     <div class="spinner-border m-auto" id="loading"></div>
 

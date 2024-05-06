@@ -7,19 +7,84 @@
 		<title>Encylcopedia</title>
 		<link rel="Stylesheet" href="styles/style.css">
 		<script src="https://kit.fontawesome.com/8319955bbc.js" crossorigin="anonymous"></script>
+		<script>
+
+        function Sshow1On () {
+            document.getElementById('sshow1').style.display = 'block';
+			document.getElementById('sshow2').style.display = 'none';
+			document.getElementById('sshow3').style.display = 'none';
+			document.getElementById('sshow4').style.display = 'none';
+        }
+		function Sshow2On () {
+            document.getElementById('sshow2').style.display = 'block';
+			document.getElementById('sshow1').style.display = 'none';
+			document.getElementById('sshow3').style.display = 'none';
+			document.getElementById('sshow4').style.display = 'none';
+        }
+		function Sshow3On () {
+            document.getElementById('sshow3').style.display = 'block';
+			document.getElementById('sshow2').style.display = 'none';
+			document.getElementById('sshow1').style.display = 'none';
+			document.getElementById('sshow4').style.display = 'none';
+        }
+		function Sshow4On () {
+            document.getElementById('sshow4').style.display = 'block';
+			document.getElementById('sshow2').style.display = 'none';
+			document.getElementById('sshow3').style.display = 'none';
+			document.getElementById('sshow1').style.display = 'none';
+        }
+
+		function Tear1On () {
+            document.getElementById('tear1').style.display = 'block';
+			document.getElementById('tear2').style.display = 'none';
+			document.getElementById('rightarrow').style.display = 'block';
+			document.getElementById('leftarrow').style.display = 'none';
+
+        }
+		function Tear2On () {
+            document.getElementById('tear2').style.display = 'block';
+			document.getElementById('tear1').style.display = 'none';
+			document.getElementById('rightarrow').style.display = 'none';
+			document.getElementById('leftarrow').style.display = 'display';
+
+        }
+
+		function Wrath1On () {
+            document.getElementById('wrath1').style.display = 'block';
+			document.getElementById('wrath2').style.display = 'none';
+
+        }
+		function Wrath2On () {
+            document.getElementById('wrath2').style.display = 'block';
+			document.getElementById('wrath1').style.display = 'none';
+
+        }
+
+		function EventTab ()
+		{
+			document.getElementById("eventtab").innerHTML = "In Progress!";
+		}
+		function EventOff ()
+		{
+			document.getElementById("eventtab").innerHTML = "Events";
+		}
+		</script>
 	</head>
 
 	<body>
+		<a id="skip-to-content" href="#content">Skip To Content</a>
 		<div class="name"> DEVAS </div>
 		<div class="login">
 			<a href="#"> <i class="fa-solid fa-user"></i> Login / Sign Up</a>
 		</div>
 		<nav class="middle">
-			<div><a href="index.html">Home</a></div>
-			<div><a href="encylcopedia.html">Encylcopedia</a></div>
-			<div><a href="masterlist.html">Masterlist</a></div>
+			<a href="index.html">Home</a>
+			<a id="eventtab" onmouseover="EventTab();" onmouseout="EventOff();" href="#">Events</a>
+			<a href="encylcopedia.html">Encylcopedia</a>
+			<a href="masterlist.html">Masterlist</a>
 		</nav>
 
+		<a id="content"></a>
 		<main>
 
 			<h1>FAQ</h1>
@@ -90,6 +155,13 @@
 				<img id="sshow3" src="brand/devafeel.png">
 				<img id="sshow4" src="brand/devawings.png">
 			</div>
+
+			<div class="buttons">
+				<a href="#slideshow" onclick="Sshow1On();"> Humanoid</a>
+				<a href="#slideshow" onclick="Sshow2On();">Ears</a>
+				<a href="#slideshow" onclick="Sshow3On();">Feelers</a>
+				<a href="#slideshow" onclick="Sshow4On();">Wings</a>
+			</div>
 			
 			<h1>Subtypes</h1>
 			<h2>Child of Soul</h2>
@@ -125,16 +197,24 @@
 			<div class="sbcontainer">
 				<div>
 					<img id="tear1" src="brand/tears1.png">
-					<img id="tear2" src="brand/tears2.png">
 				</div>
 				<div>
 					<p>
 						Child of tears is an aquatic type.  
 						they came from their creater's tear that shed when the gods abandon her. This type can breathe under water and can use water/ice element
-						Traits : 
-						Jellyfish feelers ( optional, some aquatic type can have normal feelers as well but other type of devas cannot have Jellyfish feelers)
+						</p>
+						<p>
+						Traits : </p>
+						<ul>
+							<li>Jellyfish feelers ( optional, some aquatic type can have normal feelers as well but other type of devas cannot have Jellyfish feelers) </li>
+						</ul>
+						<p>
 						This type is the only type that can transform their lower half of the body into naga-like when under water.
-						Habitat : Sea, River
+						</p>
+						<p> 
+							Habitat : Sea, River
+						</p>
+						<p>
 						Element : Water, Ice
 					</p>
 				</div>
@@ -147,9 +227,18 @@
 						Child of flesh and blood is a land type. 
 						They come from their mother's flesh and blood that were thorn into pieces.
 						They have the ability to use earth/rock/plants element. they can regenerate their limbs if it got cut off and have more physical strength than other types.
-
-						Traits : Horn, Flora body, rock armor
-						Habitat : on land
+						</p>
+						<p>
+							Traits :
+						</p>
+						<ul>
+							<li>Horns</li>
+							<li>Flora Body</li>
+							<li>Rock Armor</li>
+						</ul>
+						<p>
+						Habitat : Land </p>
+						<p>
 						Element : Earth, Plants, Rock
 					</p>
 				</div>
@@ -169,43 +258,50 @@
 						Child of wrath is an underground type.
 						They're born from the wrath of their mother when the gods blame for her sin.
 						They have fire and darkness element and part of their body can glow in the dark
-
-						Traits : 
-						-Cracks all over the body, 
-						-Leaking (liquid leak from the cracks.)
-						-Single colored-eye Eyes will be single color (white, black, other colors.) when they have dark colored eye, some may have sparkles that resembles the night sky.
-						-Flaming heart looks similar to the Soul child's fragile heart but more aggressive. with this one it comes from the Wrath energy leaking and bursting into flames. it will not burn it's owner but it will destroy everything else.
-					</p>
+						</p>
+						<p>Traits :  </p>
+						<ul>
+						<li>Cracks all over body </li>
+						<li>Leaking (liquid leak from the cracks.) </li>
+						<li>Single colored-eye Eyes will be single color (white, black, other colors.) when they have dark colored eye, some may have sparkles that resembles the night sky.</li>
+						<li>Flaming heart looks similar to the Soul child's fragile heart but more aggressive. with this one it comes from the Wrath energy leaking and bursting into flames. it will not burn it's owner but it will destroy everything else. </li>
+					</ul>
 				</div>
 			</div>
 
 			<h2>God Eater</h2>
-			<div>
+			<div class="sbcontainer2">
 				<div>
 					<p>
 						NOTE : god eaters can have/be of any traits/subtype.
+						</p>
+						<p>
 						God eater is the children that manage to eat the gods and stole their power. this type is the most powerful and they were called Devasin.
-						This type is a special type, cannot make on free myo event.
+						This type is a special type, cannot make on free myo event. </p>
+						<p>
 						Their body is a lot bigger than normal devas 
 						They can control more than one element.
-						Some may lose their conscious and go insane because their power is too powerful.
-						Traits
-						Corrupted wings : Larger winged fins that sometimes breaks apart from the body. some may have multiple wings. sometime may have prism particles inside the wings.
-						Extra long tail : Two time or more longer and larger than normal devas
-						Elemental body : Elemental fluid that cover some parts of the body and turn that whole part into element.
-						ex: the element can be glass, metal, fire, water, etc.
-						Corrupted Armor : Rock armor that looks like horns or spike that grows out of the body. 
-						Bone feelers : bone that grows on the feelers. it may be sharp like a blade.
-						All-seeing eye : multiple eyes on the body, they will have the ability to see future and past.
-						Bloom : Flower and plants grow all over their body. 
-
-
-						Sub Type  (these type is just what it is called when have some certain traits)
-						Eden : Child of Flesh that covered in flower and plants, looks like a walking garden
-						Typhon : Child of wrath that have two tails coiled together.
-						Seraph : Child of soul that have multiple extra large winged fins
-						Leviathan : Child of tears that develop their body into giant sea monster. 
-						Kraken : Child of tears that develop tentacles from their tail.
+						Some may lose their conscious and go insane because their power is too powerful.</p>
+						<p>Traits:</p>
+						<ul>
+							<li>Corrupted wings : Larger winged fins that sometimes breaks apart from the body. some may have multiple wings. sometime may have prism particles inside the wings.</li>
+							<li>Extra long tail : Two time or more longer and larger than normal devas</li>
+							<li>Elemental body : Elemental fluid that cover some parts of the body and turn that whole part into element. ex: the element can be glass, metal, fire, water, etc.</li>
+							<li>Corrupted Armor : Rock armor that looks like horns or spike that grows out of the body. </li>
+							<li>Bone feelers : bone that grows on the feelers. it may be sharp like a blade.</li>
+							<li>All-seeing eye : multiple eyes on the body, they will have the ability to see future and past.</li>
+							<li>Bloom : Flower and plants grow all over their body. </li>
+						</ul>
+						<p>
+							Sub Type  (these type is just what it is called when have some certain traits)
+						</p>
+						<ul>
+						<li>Eden : Child of Flesh that covered in flower and plants, looks like a walking garden</li>
+						<li>Typhon : Child of wrath that have two tails coiled together.</li>
+						<li>Seraph : Child of soul that have multiple extra large winged fins</li>
+						<li>Leviathan : Child of tears that develop their body into giant sea monster. </li>
+						<li>Kraken : Child of tears that develop tentacles from their tail.</li>
+						</ul>
 					</p>
 				</div>
 				<div>
@@ -220,6 +316,7 @@
 		<footer>
 			<p>&copy; 2024</p>
 		</footer>
+		
 	</body>
 
 </html>

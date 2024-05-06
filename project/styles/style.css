@@ -6,10 +6,40 @@
     .myosale {
         width: 400px;
     }
+    nav a {
+        max-width: 100%;
+        display: block;
+        padding: 5px;}
+        nav a:link {color: #FFEAF2; text-decoration: none; margin: 0px; padding: 5px;}
+        nav a:visited {padding: 0px; margin: 0px;}
+        nav a:hover {padding: 0px; margin: 0px;}
+        nav {
+            padding: 0px 0px;
+            margin: 0px;
+            text-align: left;
+        }
+
 }
     
 @media only screen and (min-width: 801px) {
+    nav a:link {color: #FFEAF2; text-decoration: none; margin: 5px 90px;}
+    nav {   
+         text-align: center;}
 
+}
+
+#skip-to-content {
+    position: absolute;
+    left: -999px;
+    background-color: #FBC5D8;
+    border: 1px solid #FBC5D8;
+    color: #000000;
+    padding: 10px 30px;
+}
+
+#skip-to-content:focus {
+    position: absolute;
+    left: 10px;
 }
 
 body { 
@@ -34,28 +64,22 @@ body {
 }
 
 /* navigation css */
-nav, {display: flex;}
-nav div {
-    padding: 0px 5px;
+nav {
+    padding: 10px;
     font-weight: 600;
     color: #ffffff;
-}
-nav {
-    justify-content: space-between;
-    background-color: #FBC5D8;
-    color:#ffffff;
+    background-color:#FBC5D8;
     border: 1px solid #FBC5D8;
     text-decoration: none;
-    display: flex;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 15px 0px 15px 0px;
-    padding: 13px 5px;
+    margin-bottom: 30px;
     border-radius: 1.5em;
 }
 
-nav div a:link {color: #FFEAF2; text-decoration: none;}
-nav div a:visited {color: #FFEAF2; text-decoration: none;}
-nav div a:hover {
+
+
+nav a:visited {color: #FFEAF2; text-decoration: none;}
+nav a:hover {
     color:#FBC5D8;
     background-color:#ffffff;
     padding: 13px 30px;
@@ -101,9 +125,9 @@ main {color: #ffa5c5;}
 }
 
 h1 {
-    font-size: 4em;
+    /* font-size: 4em;
     font-weight:900;
-    letter-spacing: 2px;
+    letter-spacing: 2px; */
     color: #FBC5D8;
     padding-left: 40px;
 }
@@ -140,6 +164,15 @@ h1 {
 .buttons p {
     background-color: #FBC5D8;
     padding: 20px 0px;
+    border-radius: 1.5em;
+    color:#ffffff;
+    font-weight: 600;
+}
+
+.buttons a {
+    background-color: #FBC5D8;
+    padding: 15px 50px;
+    margin: 0px 70px;
     border-radius: 1.5em;
     color:#ffffff;
     font-weight: 600;
@@ -212,13 +245,13 @@ h2 {
     display: none;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 40%;
 }
 #sshow3 {
     display: none;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 50%;
 }
 #sshow4 {
     display: none;
@@ -234,7 +267,7 @@ h2 {
 
     background-color:#ffffff;
     border: 1px solid #FBC5D8;
-    margin: 40px;
+    margin: 20px 40px;
     padding: 20px;
     border-radius: 1.5em;
 }
@@ -263,6 +296,17 @@ h2 {
 
 .sbcontainer {
     display:flex;
+
+    line-height: 2;
+
+    background-color:#ffffff;
+    border: 1px solid #FBC5D8;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 1.5em;
+}
+
+.sbcontainer2 {
 
     line-height: 2;
 
@@ -311,4 +355,17 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
+
+#rightarrow {
+    margin-top: 300px;
+    display: block;
+    width: 5%;
+    height: 5%;
+}
+
+#leftarrow {
+    display: none;
+    width: 10%;
+    height: 10%;
 }
