@@ -23,7 +23,7 @@
 }
     
 @media only screen and (min-width: 801px) {
-    nav a:link {color: #FFEAF2; text-decoration: none; margin: 5px 90px;}
+    nav a:link {color: #bd0e51; text-decoration: none; margin: 5px 90px;}
     nav {   
          text-align: center;}
 
@@ -169,7 +169,6 @@ h1 {
     background-color: #FBC5D8;
     padding: 20px 0px;
     border-radius: 1.5em;
-    color:#ffffff;
     font-weight: 600;
     color: #000000;
 }
@@ -179,7 +178,6 @@ h1 {
     padding: 15px 50px;
     margin: 0px 70px;
     border-radius: 1.5em;
-    color:#ffffff;
     font-weight: 600;
     color: #000000;
     text-decoration: none;
@@ -202,7 +200,7 @@ h1 {
 /* footer css */
 footer {
     background-color: #FBC5D8;
-    color: #ffffff;
+    color: #000000;
     padding: 2.5px 10px;
     height: 60px;
     margin-top: 10px;
